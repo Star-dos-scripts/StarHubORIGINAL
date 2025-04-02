@@ -9,7 +9,7 @@ Tab:AddParagraph("Olá","Este e o Star Hub! Um projeto que posso dizer que deu c
 Tab:AddButton({
 	Name = "Nosso discord!",
 	Callback = function()
-      		setclipboard(https://discord.gg/kBDk5YMR2R)
+      		setclipboard("https://discord.gg/kBDk5YMR2R")
   	end    
 })
 local Tab = Window:MakeTab({
